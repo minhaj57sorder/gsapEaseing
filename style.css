@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Signika+Negative:wght@400;600&display=swap');
+body{
+    background-color: #1d1d1d;
+    font-family: 'Signika Negative', sans-serif;
+    color: #88ce04;
+    font-weight:400;
+}
+a{
+  color:#88ce04;
+  font-weight:600;
+  text-decoration: none;
+}
+a:hover{
+  text-decoration: underline;
+}
+.nav{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.nav .logo{
+    font-size: 34px;
+    font-weight:600;
+    margin: 0;
+}
+.nav p{
+    color: #fff;
+}
+#col2row1{
+    margin:auto;
+    width: 500px;
+    height: 300px;
+    /* overflow: hidden; */
+    /* min-width: 450px; */
+    /* max-width: 800px; */
+    border: 1px solid #88ce04;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+#easeBtnCmd{
+    background-color: rgb(43, 43, 43);
+}
+#easeBtnCmd{
+    height: 300px;
+    overflow-y: scroll;
+}
+
+#easeBtnCmd>*{
+    display: flex;
+}
+#easeBtnCmd>* button{
+    flex: 1;
+}
+#easeVisualize{
+    /* background-color: darkgray; */
+    border-right: 2px solid darkgray;
+    width: 27px;
+    margin-right: 25px;
+}
+.end{
+    width: 25px;
+    height: 2px;
+    position: relative;
+    left: 15px;
+    top: 2px;
+    background-color: darkgray;
+}
+.box{
+    width: 25px;
+    height: 25px;
+    border-radius: 5px;
+    position: relative;
+    left: 15px;
+    top: 275px;
+    background-color: #88ce04;
+}
+button{
+    /* width: 155px; */
+    font-size:15px;
+    padding: 7px 10px;
+    border-radius: 5px;
+    color: #fff;
+    background-color: darkgray;
+}
+/* #steps button{
+    width: 190px;
+} */
+button:hover{
+    background-color: #88ce04;
+}
+#easeCode{
+    margin: auto;
+    width: 500px;
+    text-align: center;
+}
+#easeCode input{
+    width: 30px;
+    text-align: center;
+}
