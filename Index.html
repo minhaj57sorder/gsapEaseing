@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="nav">
+  <h2 class="logo"><img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/16327/logo-man.svg" width="50" style="vertical-align: middle; margin-right: 16px;">GSAP</h2>
+  <p>The easing func are copyed from GSAP official Easing doc. To follow GSAP official <a href="https://greensock.com/docs/v3/Eases">EASE</a></p>
+</div>
+<div id="col2row1">
+  <div id="easeVisualize">
+    <div class="end"></div>
+    <div class="box"></div>
+  </div>
+  <div id="easeBtnCmd">
+    <div id="power1">
+      <button>power1.in</button>
+      <button>power1.out</button>
+      <button>power1.inOut</button>
+    </div>
+    <div id="power2">
+      <button>power2.in</button>
+      <button>power2.out</button>
+      <button>power2.inOut</button>
+    </div>
+    <div id="power3">
+      <button>power3.in</button>
+      <button>power3.out</button>
+      <button>power3.inOut</button>
+    </div>
+    <div id="power4">
+      <button>power4.in</button>
+      <button>power4.out</button>
+      <button>power4.inOut</button>
+    </div>
+    <div id="back">
+      <button>back.in(1.7)</button>
+      <button>back.out(1.7)</button>
+      <button>back.inOut(1.7)</button>
+    </div>
+    <div id="bounce">
+      <button>bounce.in</button>
+      <button>bounce.out</button>
+      <button>bounce.inOut</button>
+    </div>
+    <div id="circ">
+      <button>circ.in</button>
+      <button>circ.out</button>
+      <button>circ.inOut</button>
+    </div>
+    <div id="elastic">
+      <button>elastic.in(1,0.3)</button>
+      <button>elastic.out(1,0.3)</button>
+      <button>elastic.inOut(1,0.3)</button>
+    </div>
+    <div id="expo">
+      <button>expo.in</button>
+      <button>expo.out</button>
+      <button>expo.inOut</button>
+    </div>
+    <div id="sine">
+      <button>sine.in</button>
+      <button>sine.out</button>
+      <button>sine.inOut</button>
+    </div>
+    <div id="steps">
+      <button>SteppedEase.config(12)</button>
+    </div>
+  </div>
+</div>
+<div id="easeCode">
+  <h3>Code example here</h3>
+  <div>
+    <label for="durAtion">Choose a duration:</label>
+    <select name="durAtion" id="durAtion">
+      <option value="1">1</option>
+      <option value="1.5">1.5</option>
+      <option value="2" selected>2</option>
+      <option value="2.5">2.5</option>
+      <option value="3">3</option>
+      <option value="3.5">3.5</option>
+      <option value="4">4</option>
+      <option value="4.5">4.5</option>
+      <option value="5">5</option>
+    </select>
+  </div>
+
+  <p><button id="copyTxt">Copy easing</button> Copy to clip board ( <code>ease:"<span id="codeExample"></span>"</code>) </p>
+</div>
+</body>
+</html>
